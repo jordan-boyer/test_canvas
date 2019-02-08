@@ -154,7 +154,7 @@ class Canvas {
         this.frame();
         this.render();
         window.requestAnimationFrame(() => {
-            this.loop.apply(this);
+            this.loop();
         });
     }
 
